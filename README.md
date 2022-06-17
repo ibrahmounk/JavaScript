@@ -1,2 +1,2 @@
 # JavaScript
-#Hello world with JS
+#Variables
