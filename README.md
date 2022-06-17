@@ -1,2 +1,2 @@
 # JavaScript
-#Variables
+#Data types
