@@ -17,6 +17,8 @@ console.log(myAge)
 
 // Array
 const friend0 = [38, 13, 24, 67]
+
+// Object
 const friend1 = [true, false]
 const friend2 = ['Mamadou', 'Saly']
 const friend3 = [38, true, false, 'Mah']
