@@ -1,31 +1,16 @@
-// Addition, 
-// subs : -
-// multipl: *
-// power : **
-const myAge = 13;
-let yourAge = 13 + 5;
+// Incrementation and decrementation
 
-// myAge = myAge - 1;
-// console.log(myAge)
+let myAge = 20
+mySteps = 23
+// Incrementation
+// myAge++  ---> myAge = myAge + 1;
+// mySteps--  ---> mySteps = myAge - 1;
 
-// myAge = myAge * 1;
-// console.log(myAge)
+// --myAge
+// --mySteps
 
-// myAge = myAge ** 1; 
-// console.log(myAge)
+myAge++
+mySteps--
 
-// myAge = myAge  1;
-// console.log(myAge)
-
-yourAge = yourAge + 1;
-console.log(yourAge)
-
-
-const bal = [1 , 5,  3, 19]
-const total = 4;
-const sum = bal[0] + bal [1] + bal[2] + bal[3]
-const average = sum/total
-
-console.log('Sum of bal', sum)
-console.log('total', total)
-console.log('average', average)
+console.log(myAge)
+console.log(mySteps)
