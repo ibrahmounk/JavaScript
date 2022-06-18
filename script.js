@@ -1,49 +1,31 @@
-// String
-const myName = 'Moncere'
-let myhairColor = 'Black and white'
+// Addition, 
+// subs : -
+// multipl: *
+// power : **
+const myAge = 13;
+let yourAge = 13 + 5;
 
-console.log(myhairColor)
-console.log(myName)
+// myAge = myAge - 1;
+// console.log(myAge)
 
-// Boolean
-const right = true
-let left = false
-console.log(right)
-console.log(left)
+// myAge = myAge * 1;
+// console.log(myAge)
 
-// Numbers
-let myAge = 24
-console.log(myAge)
+// myAge = myAge ** 1; 
+// console.log(myAge)
 
-// Array
-const friend0 = [38, 13, 24, 67]
+// myAge = myAge  1;
+// console.log(myAge)
 
-// Object
-const friend1 = [true, false]
-const friend2 = ['Mamadou', 'Saly']
-const friend3 = [38, true, false, 'Mah']
-
-console.log(friend0)
-console.log(friend1)
-console.log(friend2)
-console.log(friend3)
-console.log(friend3[2])
-
-// Undefined 
-const someValue = undefined
-console.log(someValue)
-
-// BitInt
-
-let big = 246575766666677744422424564646
-console.log(big)
-
-let big1 = 246575766666677744422424564646n
-console.log(big1)
-
-// null
-const whatIsNull = null
-console.log(whatIsNull)
+yourAge = yourAge + 1;
+console.log(yourAge)
 
 
-// A lot more to discuss later
+const bal = [1 , 5,  3, 19]
+const total = 4;
+const sum = bal[0] + bal [1] + bal[2] + bal[3]
+const average = sum/total
+
+console.log('Sum of bal', sum)
+console.log('total', total)
+console.log('average', average)

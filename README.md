@@ -1,2 +1,2 @@
 # JavaScript
-#Data types
+#Math operations
