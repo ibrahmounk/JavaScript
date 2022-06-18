@@ -1,2 +1,2 @@
 # JavaScript
-#Functions
+#Function Parameters

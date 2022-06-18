@@ -2,12 +2,15 @@ let bal = 11
 const total =  454;
 const sum = 7
 
-function printAll(){
-    console.log('bal', bal)
-    console.log('the total is', total)
-    console.log('The sum is', sum)
+function printAll(incrementBy, multiplyBy){
+    // console.log(incrementBy)
+
+    bal = (bal + incrementBy) * multiplyBy
+
 }
 
-printAll()
-bal = 33
-printAll()
+printAll(2,3)
+// printAll(5)
+
+
+console.log(bal)
