@@ -1,16 +1,21 @@
-let bal = 11
-const total =  454;
-const sum = 7
+const bal = 11
+let total =  454;
+let sum = 7
 
 function printAll(incrementBy, multiplyBy){
     // console.log(incrementBy)
 
-    bal = (bal + incrementBy) * multiplyBy
+    //  sum = sum + 23
+    //  return
+
+    (bal + incrementBy) * multiplyBy
+    return (bal + incrementBy) * multiplyBy
+
 
 }
 
-printAll(2,3)
+const newbal = printAll(2,3)
 // printAll(5)
 
 
-console.log(bal)
+console.log(bal, newbal)

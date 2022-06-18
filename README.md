@@ -1,2 +1,2 @@
 # JavaScript
-#Function Parameters
+#return statement
