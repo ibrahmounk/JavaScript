@@ -1,16 +1,13 @@
-// Incrementation and decrementation
+let bal = 11
+const total =  454;
+const sum = 7
 
-let myAge = 20
-mySteps = 23
-// Incrementation
-// myAge++  ---> myAge = myAge + 1;
-// mySteps--  ---> mySteps = myAge - 1;
+function printAll(){
+    console.log('bal', bal)
+    console.log('the total is', total)
+    console.log('The sum is', sum)
+}
 
-// --myAge
-// --mySteps
-
-myAge++
-mySteps--
-
-console.log(myAge)
-console.log(mySteps)
+printAll()
+bal = 33
+printAll()

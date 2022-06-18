@@ -1,2 +1,2 @@
 # JavaScript
-#Incrementation and decrementation
+#Functions
