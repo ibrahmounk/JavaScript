@@ -1,2 +1,2 @@
 # JavaScript
-#return statement
+#calculator with function

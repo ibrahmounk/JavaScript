@@ -1,21 +1,24 @@
-const bal = 11
-let total =  454;
-let sum = 7
+// write your code below
+let num1
+let num2
+let num3
 
-function printAll(incrementBy, multiplyBy){
-    // console.log(incrementBy)
-
-    //  sum = sum + 23
-    //  return
-
-    (bal + incrementBy) * multiplyBy
-    return (bal + incrementBy) * multiplyBy
-
-
+function add(num1,num2) {
+    return num1 + num2
 }
 
-const newbal = printAll(2,3)
-// printAll(5)
+function sub(num1, num2) {
+    return num2 - num1
+}
 
+function mul(num1, num2) {
+    return num1 * num2
+}
 
-console.log(bal, newbal)
+function div(num1, num2) {
+    return num2/num1
+}
+
+function funky(num1, num2, num3) {
+    return (num2 * num3) + num1
+}
