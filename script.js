@@ -1,24 +1,28 @@
-// write your code below
-let num1
-let num2
-let num3
+const bal = 11;
+let total =  454;
+let sum = 7;
 
-function add(num1,num2) {
-    return num1 + num2
+// function getAgege(age) {
+//     if(age > 18) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// function getAgege(age) {
+//     if(age > 18) {
+//         return true
+//     } 
+//         return false
+// }
+
+function getAgege(age) {
+    if(age > 18) {
+        console.log('This person is ' + age + ' years old')
+    }else{
+    console.log('This person is only ' + age + ' years old')
+    }
 }
 
-function sub(num1, num2) {
-    return num2 - num1
-}
-
-function mul(num1, num2) {
-    return num1 * num2
-}
-
-function div(num1, num2) {
-    return num2/num1
-}
-
-function funky(num1, num2, num3) {
-    return (num2 * num3) + num1
-}
+getAgege(18)

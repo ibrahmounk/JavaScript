@@ -1,2 +1,2 @@
 # JavaScript
-#calculator with function
+#If else
