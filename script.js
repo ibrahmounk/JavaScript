@@ -1,6 +1,68 @@
-const bal = 11;
-let total =  454;
-let sum = 7;
+let myFriend = []
+
+function addThem(friends) {
+    // myFriend.push(friends)
+    myFriend.unshift(friends)
+    console.log(myFriend)
+
+}
+
+addThem('Ib')
+addThem('Ab')
+addThem('Ac')
+addThem('Ad')
+
+console.log(myFriend[0])
+console.log(myFriend.length)
+lastValue = myFriend.pop()
+
+myFriend.pop()
+myFriend.pop()
+
+console.log('Final array', myFriend, lastValue)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function getAgege(age) {
 //     if(age > 18) {
@@ -17,24 +79,24 @@ let sum = 7;
 //         return false
 // }
 
-function getAgage(age, bribe, whitelisted) {
-    if(!whitelisted){
-        console.log('You are banned', whitelisted)
-        return
-    }
-    if((age <= 18 && bribe > 100) || bribe > 500) {
-        console.log('You pass')
-        return
+// function getAgage(age, bribe, whitelisted) {
+//     if(!whitelisted){
+//         console.log('You are banned', whitelisted)
+//         return
+//     }
+//     if((age <= 18 && bribe > 100) || bribe > 500) {
+//         console.log('You pass')
+//         return
     
-    } else if (age > 18) {
-        console.log('He is above 18')
-        return
-    }else if (bribe <= 100) {
-        console.log('This person is below 18')
-    }
-}
+//     } else if (age > 18) {
+//         console.log('He is above 18')
+//         return
+//     }else if (bribe <= 100) {
+//         console.log('This person is below 18')
+//     }
+// }
 
-getAgage(100, 100, true)
+// getAgage(100, 100, true)
 // getAgage(100, 100, false)
 
 // getAgage(100, 100, undefined)

@@ -1,2 +1,2 @@
 # JavaScript
-#Logical operators
+#Arrays
