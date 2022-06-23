@@ -1,8 +1,22 @@
-const result = 1 === '1'
-const right = 1 === 1
+const myObject = {
+    'key1':{
+        'key3': 'Hello world',
+        key4 : 'Dada world',
+        'key5 & 6': 'Papi world'
+    } ,
+    'key2': 'Bbb',
+    key7: null,
+    key8: undefined,
+    key9: true
+}
 
-console.log(result)    
-console.log(right)    
+console.log(myObject['key1']);
+console.log(myObject['key1']['key4']);
+console.log(myObject.key1['key5 & 6']);
+
+
+
+
 
     
     
@@ -43,7 +57,11 @@ console.log(right)
 
 
 
+// const result = 1 === '1'
+// const right = 1 === 1
 
+// console.log(result)    
+// console.log(right)    
 
     
     // function breakNumber(number) {
