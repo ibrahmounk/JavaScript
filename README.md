@@ -1,2 +1,2 @@
 # JavaScript
-#document.querySelector
+#document.querySelectorAll

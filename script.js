@@ -1,5 +1,8 @@
-const heading = document.querySelector('#hello');
+const allList = document.querySelectorAll('ul li')
 
-heading.innerText = 'Bonjour champion'
+for (let i =0; i<allList.length; i++) {
+    let affiche = allList[i]
+    affiche.innerText = 'Voilà'
+}
 
-console.log(heading)
+console.log(allList)
