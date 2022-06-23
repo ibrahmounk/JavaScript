@@ -1,12 +1,78 @@
-let myFriend = []
+    
+    
+    
+    
+    function breakNumber(number) {
 
-function addThem(friends) {
-    // myFriend.push(friends)
-    myFriend.unshift(friends)
-    console.log(myFriend)
-}
-for (let i=0; i<10; i++) {
-    myFriend.push(i)
-}
+        let evenNumber = []
 
-console.log(myFriend)
+            for (let i=0; i<20; i++) {
+                if(i === number) {
+                    break
+            }
+
+            if(i % 2 === 0){
+                evenNumber.push(i)
+            }
+            
+        }
+            return evenNumber
+    }
+    console.log(breakNumber(10))
+
+
+
+
+
+
+        // function skipNumbers(number) {
+
+    //     let evenNumber = []
+
+    //         for (let i=0; i<20; i++) {
+
+    //             if(i % 2 === 1) {
+    //             continue
+    //         }
+    //         if(i === number){
+    //             continue
+    //         }
+    //         evenNumber.push(i)
+    //     }
+    //         return evenNumber
+    // }
+    // console.log(skipNumbers(20))
+    // console.log(skipNumbers(2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function skipNumbers(number) {
+//     let evenNumber = []
+//     for (let i=0; i<20; i++) {
+//         if (i%2 === 0 && i !== number){
+//             evenNumber.push(i)
+//         }
+//     }
+//     return evenNumber
+//     }
+//     console.log(skipNumbers(20))
