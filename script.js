@@ -1,30 +1,87 @@
-const myProfile = {
-    name: 'Ibrahima',
-    age: 23
+const hi = 'Hi world'
+let i = 0
+function x() {
+    // if (true) {
+    //     console.log(hi)
+    // }
+     let i = 0;
+    for(; i<10; i++) {
+        console.log(i)
+    }
 }
-
-const teacherProfile = {
-    name: 'Mohamed',
-    age: 55
-}
-
-function primitiveMutate(primitive) {
-    primitive++
-    console.log(primitive)
-}
-let num = 4
-primitiveMutate(num)
-
-///////////////////////////////////////////////
-
-function mutate(obj) {
-    obj.age+++
-    console.log(obj.age)
-}
+x()
+// console.log(hi)
 
 
-mutate(teacherProfile)
-console.log(teacherProfile)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const myProfile = {
+//     name: 'Ibrahima',
+//     age: 23
+// }
+
+// const teacherProfile = {
+//     name: 'Mohamed',
+//     age: 55
+// }
+
+// function primitiveMutate(primitive) {
+//     primitive++
+//     console.log(primitive)
+// }
+// let num = 4
+// primitiveMutate(num)
+
+// ///////////////////////////////////////////////
+
+// function mutate(obj) {
+//     obj.age+++
+//     console.log(obj.age)
+// }
+
+
+// mutate(teacherProfile)
+// console.log(teacherProfile)
 
 
 
