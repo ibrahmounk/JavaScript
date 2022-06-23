@@ -1,2 +1,2 @@
 # JavaScript
-#Scoping
+#Variable shadowing
