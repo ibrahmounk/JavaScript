@@ -1,24 +1,68 @@
-    
-    
-    
-    
-    function breakNumber(number) {
+const result = 1 === '1'
+const right = 1 === 1
 
-        let evenNumber = []
+console.log(result)    
+console.log(right)    
 
-            for (let i=0; i<20; i++) {
-                if(i === number) {
-                    break
-            }
+    
+    
 
-            if(i % 2 === 0){
-                evenNumber.push(i)
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    // function breakNumber(number) {
+
+    //     let evenNumber = []
+
+    //         for (let i=0; i<20; i++) {
+    //             if(i === number) {
+    //                 break
+    //         }
+
+    //         if(i % 2 === 0){
+    //             evenNumber.push(i)
+    //         }
             
-        }
-            return evenNumber
-    }
-    console.log(breakNumber(10))
+    //     }
+    //         return evenNumber
+    // }
+    // console.log(breakNumber(10))
 
 
 

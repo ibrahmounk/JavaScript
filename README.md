@@ -1,2 +1,2 @@
 # JavaScript
-#break vs continue vs return
+#Equality check in JS
