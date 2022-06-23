@@ -1,2 +1,2 @@
 # JavaScript
-#If else
+#Logical operators
