@@ -1,2 +1,2 @@
 # JavaScript
-#Objects
+#Call by reference in objects
