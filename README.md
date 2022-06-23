@@ -1,2 +1,2 @@
 # JavaScript
-#Variable shadowing
+#document.querySelector
