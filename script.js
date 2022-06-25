@@ -1,8 +1,27 @@
-const allList = document.querySelectorAll('ul li')
+// const incremente = document.querySelector('#incrementBtn')
 
-for (let i =0; i<allList.length; i++) {
-    let affiche = allList[i]
-    affiche.innerText = 'Voilà'
+// let counter = 0
+
+// function incre() {
+//     const counterEl = document.getElementById('counter')
+//     counter++
+//     counterEl.innerText = 'counter'
+// }
+
+// incremente.addEventListener('click', incre )
+
+
+
+const allList = document.querySelectorAll('#incrementBtn')
+
+let counter = 0;
+
+function incrementCounter() {
+    const count = document.getElementById('counter')
+    counter++
+    console.log(count)
+
+    count.innerText = counter
 }
 
-console.log(allList)
+document.addEventListener('click',incrementCounter)

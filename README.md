@@ -1,2 +1,2 @@
 # JavaScript
-#document.querySelectorAll
+#Introduction to event listeners
