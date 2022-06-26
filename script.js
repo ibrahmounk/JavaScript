@@ -1,17 +1,27 @@
-const heading = document.querySelector('.heading')
-heading.innerText = 'I yoooooo'
-
-const completList = document.querySelectorAll('ul li')
-// for(let i=0; i<completList.length; i++) {
-//     const list = completList[i]
-//     list.innerText= 'Booom'
-// }
-
-const para = document.querySelector('#para')
-const para1 = document.getElementById('para')
-para1.innerText = 'Focho'
+let decrementBtn = document.querySelector('#decrement')
+const incrementBtn = document.querySelector('#increment')
+const countCheck = document.getElementById('counter')
+let countER = 0;
+const ulElement = document.getElementById('itemList')
 
 
-const ul = document.querySelector('ul li')
-const li = ul.querySelector('ul li')
-ul.innerText = 'Yo'
+
+        const clickIt = function() {
+
+        countER++
+        countCheck.innerText = countER
+
+        const li = document.createElement('li')
+        li.innerHTML = ' <em>Sentence</em> ' + countER
+
+        ulElement.appendChild(li)
+    }
+
+
+const decrementation = function() {
+    countER--
+    countCheck.innerText = countER
+}
+
+incrementBtn.addEventListener('click', clickIt)
+decrementBtn.addEventListener('click', decrementation)

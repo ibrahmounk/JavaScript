@@ -1,3 +1,3 @@
 # JavaScript
-#More on traversing DOM
+#Create elements dynamically with JavaScript
 
