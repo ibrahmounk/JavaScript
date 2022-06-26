@@ -1,2 +1,3 @@
 # JavaScript
-#Introduction to event listeners
+#More on traversing DOM
+

@@ -1,27 +1,17 @@
-// const incremente = document.querySelector('#incrementBtn')
+const heading = document.querySelector('.heading')
+heading.innerText = 'I yoooooo'
 
-// let counter = 0
-
-// function incre() {
-//     const counterEl = document.getElementById('counter')
-//     counter++
-//     counterEl.innerText = 'counter'
+const completList = document.querySelectorAll('ul li')
+// for(let i=0; i<completList.length; i++) {
+//     const list = completList[i]
+//     list.innerText= 'Booom'
 // }
 
-// incremente.addEventListener('click', incre )
+const para = document.querySelector('#para')
+const para1 = document.getElementById('para')
+para1.innerText = 'Focho'
 
 
-
-const allList = document.querySelectorAll('#incrementBtn')
-
-let counter = 0;
-
-function incrementCounter() {
-    const count = document.getElementById('counter')
-    counter++
-    console.log(count)
-
-    count.innerText = counter
-}
-
-document.addEventListener('click',incrementCounter)
+const ul = document.querySelector('ul li')
+const li = ul.querySelector('ul li')
+ul.innerText = 'Yo'
